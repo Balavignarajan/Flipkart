@@ -1,0 +1,582 @@
+.maindiv{
+  margin: 2vh;
+}
+.maindiv2{
+    background-color: #E8E8E8;
+    width: 185vh;
+    height: 480vh; 
+}
+
+.allcontainer{
+  background-color: #E8E8E8;
+  width: 185vh;
+  height: 1144vh;
+}
+/* beutyall thaa background color matha mudiyum */
+.navbar{
+  display: flex;
+  gap: 5vh;
+  background-color: #fff;
+  width: 185vh;
+  height: 10vh;
+  cursor: pointer;
+}
+
+.navlogo{
+  margin-top: 2vh;
+}
+
+.navimg1 :hover{
+    color: blue;
+}
+
+.navinput input{
+  height: 45px;
+  width: 420px;
+  background-color: #eef8ff;
+  border: none;
+  margin-top: 9px;
+  text-align: center;
+}
+
+.searchicon{
+  left: 35vh;
+  top: 5vh;
+  position: absolute;
+  color: rgb(204, 196, 196);
+}  
+
+.navinput ::placeholder{
+  padding-left: 2vh;
+  font-size: 18px;
+}
+
+.points{
+  display: flex;
+  margin-left: 3vh;
+}
+
+.logicon, .navpoint1{
+  display: flex;
+  gap: 2vh;
+}
+
+.navpoint1{
+   margin-left: -2vh;
+   margin-top: 3vh; 
+   font-size: 18px;   
+}
+
+.navpoint1 select{
+  border: none;
+  margin-top: -2.5vh;
+}
+
+.navpoint1:hover{
+  color: blue;
+}
+
+.logicon{
+  margin-top: 0.5vh;
+  font-size: 23px;
+  color: rgb(180, 180, 214);
+}
+
+.logicon:hover{
+  color: blue;
+}
+
+.navpoint2{
+  display: flex;
+  margin-left: 5vh;
+  margin-top: 3vh; 
+  font-size: 18px;
+  gap: 2vh;  
+}
+.navpoint2:hover{
+  color: blue;
+}
+
+.carticon{
+  margin-top: 0vh;
+  font-size: 22px;
+}
+
+.navpoint3{
+  display: flex;
+  margin-left: 5vh;
+  margin-top: 3vh; 
+  font-size: 18px;
+  gap: 2vh; 
+}
+
+.navpoint3:hover{
+  color: blue;
+}
+
+.sellericon{
+  margin-top: 0vh;
+  font-size: 22px; 
+}
+
+.navpoint4{
+  margin-left: 10vh;
+  margin-top: 3.4vh;
+  font-size: 18px;
+}
+
+/* //2nd nav */
+
+.navimages {
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+.navimg1{
+  padding:10px;
+  margin-top: 1.5vh;
+  background-color: #fff;
+  width: 50vh;
+  height: 20vh;
+}
+
+.navimg1 img{
+  width: 70px;
+}
+
+.navimg1 p{
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.slide img{
+  margin-top: 2.5vh;
+  width: 100%;
+}
+
+/* phones */
+.allphone{
+    background-color: #fff;
+    height: 62vh;
+    cursor: pointer;
+}
+
+.phones:hover p{
+  color: blue;
+}
+
+.beuty:hover p{
+  color: blue;
+}
+
+.scrollicon1{
+   margin-left: 113vh;
+   color: blue;
+}
+
+.scrollicon1 :hover{
+     color: rgb(15, 15, 15);
+}
+
+.scrollicon1a{
+  margin-left: 110vh;
+  color: blue;
+}
+
+.scrollicon1a :hover{
+    color: rgb(15, 15, 15);    
+}
+
+.scrollicon1b{
+  margin-left: 126vh;
+  color: blue;
+}
+
+.scrollicon1b :hover{
+    color: rgb(15, 15, 15);
+}
+.scrollicon1b{
+  margin-left: 126vh;
+  color: blue;
+}
+
+.scrollicon1b :hover{
+    color: rgb(15, 15, 15);
+}
+ 
+/* 3box */
+.scrollicon{
+  color: blue;
+}
+.scrollicon :hover{
+  color: rgb(0, 0, 0);
+}
+
+
+.smartphones{
+  display: flex;
+  justify-content: space-evenly; 
+}
+
+.title h2{
+  margin-left: 2vh;
+  padding-top: 3vh;
+}
+
+.phones{
+  height: 40vh;
+  width: 25vh;
+  background-color: #fff;
+  padding-left: 7vh;
+  padding-top: 2vh;
+  margin-top: 3vh;
+  border: 1px solid rgb(209, 199, 199);
+}
+
+.phones span{
+  font-weight: bold;
+  padding-left: 2.5vh;
+}
+
+/* beutyproducts2 */
+
+.beutyall{
+  background-color: #fff;
+  height: 62vh;
+  /* margintop for all bg */
+  margin-top: -347vh;                                             
+  cursor: pointer;
+}
+.beutyproducts{
+display: flex;
+justify-content: space-evenly; 
+}
+
+.title h2{
+margin-left: 2vh;
+padding-top: 3vh;
+}
+
+.beuty{
+height: 40vh;
+width: 25vh;
+background-color: #fff;
+padding-left: 7vh;
+padding-top: 2vh;
+margin-top: 3vh;
+border: 1px solid rgb(209, 199, 199);
+}
+
+.beutycycle{
+  padding-top: 8.5vh;
+  padding-left: -20vh;
+}
+
+.beutyremote{
+  padding-top: 2vh;
+}
+
+.beutygym{
+  padding-top: 2vh;
+}
+
+.beuty span{
+font-weight: bold;
+padding-left: 2.5vh;
+}
+
+/* 3rd electric */
+.electronicsall{
+  background-color: #fff;
+  height: 62vh;
+  margin-top: 3vh;
+  cursor: pointer;
+}
+
+.electronicsproducts :hover p{
+  color: blue;
+}
+
+.electronics :hover img{
+  background-color: yellow;
+  font-size: 100px;
+}
+
+.electronicsproducts{
+display: flex;
+justify-content: space-evenly; 
+}
+
+
+
+
+.title h2{
+margin-left: 2vh;
+padding-top: 3vh;
+}
+
+.title{
+  display: flex;
+  gap: 120px;
+  cursor: pointer;
+}
+
+
+.electronics{
+height: 40vh;
+width: 25vh;
+background-color: #fff;
+padding-left: 7vh;
+padding-top: 2vh;
+margin-top: 3vh;
+border: 1px solid rgb(209, 199, 199);
+}
+
+.eleckey{
+  padding-top: 14vh;
+  padding-left: -10vh;
+}
+
+.electv{
+  padding-top: 3.7vh;
+}
+
+
+.electronics span{
+font-weight: bold;
+padding-left: 2.5vh;
+}
+
+/* 3 box */
+.boxall{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 15px;
+  margin-top: 3vh;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.boxwatch{
+  background-color: #fff;
+}
+
+.first{
+  display: flex;
+  justify-content: center;
+}
+
+.second{
+  display: flex;
+  justify-content: center;
+}
+
+.first :hover p{
+  color: blue;
+}
+
+.second :hover p{
+  color: blue;
+}
+
+.watch{
+margin-left: 2vh;
+height: 35vh;
+width: 20vh;
+padding-left: 7vh;
+padding-top: 2vh;
+margin-top: 3vh;
+border: 1px solid rgb(209, 199, 199);
+
+}
+
+.watch img{
+  width: 110px;
+  margin-left: -2.5vh;
+}
+
+.watch span{
+  font-weight: bold;
+  font-size: 11.5px;
+  padding-top: 5vh;
+  color: green;
+}
+
+/* second box */
+.cricketpacks img{
+     width: 80px;
+     height: 130px;
+}
+
+/* thirdbox */
+.waterwatch img{
+  width: 115px;
+  height: 130px;
+}
+
+/* we are using same css like box1 box2 box3 and first 2 box so class name willcollapse so no collapse buddy  */
+
+/* slidebox2 */
+.women img{
+        height: 125px;
+        width: 110px;
+}
+
+/* slide box 3 */
+.iron img{
+        height: 130px;
+        width: 110px;
+}
+
+/* this two image only allignment collapse so two image only css another or crct so css eluthala */
+.boxwatch img{
+   width: 100px;
+   height: 100px;
+}
+
+.boxwatch span{
+  font-size: 15px;
+}
+
+.groom img{
+  height: 170px;
+  width: 140px;
+}
+
+.groom{
+  margin-top: 3vh;
+}
+
+/* grid2phones */
+
+.grid2phone{
+  display: grid;
+  grid-template-columns: 400px 600px;
+  gap: 5px;
+  margin-top: 3vh;
+  cursor: pointer;
+}
+
+.grid2phone img{
+    width: 120px;
+    height: 150px;
+}
+
+.bigphone img{
+  width: 845px;
+  height: 680px; 
+}
+
+.fashion img{
+  width: 140px;
+  height: 180px;
+}
+
+/* grid3 big image css */
+
+.fashionneeds img{
+    width: 430px;
+    height: 635px;
+}
+
+/* Footer */
+.footerall{
+  height: 51vh;
+  width: 185.3vh;
+  background-color: rgb(40, 38, 38);
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.footermain{
+  display: flex;
+  list-style: none;
+  gap: 1px;
+  font-size: 13px;
+}
+
+.abttitle{
+ margin-left: 6vh;
+ margin-top: 6vh;
+ color: #878787;
+}
+
+.abttitle :hover{
+ color: #E8E8E8;
+}
+
+.abt{
+  margin-left: 6vh;
+  margin-top: 2vh;
+  color: #ffffff;
+}
+
+.abt span{
+  color: rgb(38, 38, 244);
+}
+
+.abt :hover{
+  text-decoration: underline;
+  /* font-size: 150%;  hover pannum pothu size persuaa aagum*/ 
+}
+
+.social{
+  color: #878787;
+  margin-left: 6vh;
+  margin-top: 1.5vh;
+}
+
+.socialicon{
+  display: flex;
+  gap: 10px;
+  font-size: 20px;
+  padding-bottom: 8px;
+  color: #F5F5F5;
+}
+
+.line{
+  border-right: 0.5px solid #384150;
+  
+  padding-left: 20px;
+  margin: 25px 0px 5px 0px;   /* margin top and bottom 20 px kuraikuroem */
+}
+
+
+.hrfoot, hr{
+  margin-top: 4vh;
+  height: 0.1px;            /* //hr tag color Change */
+  background-color: #384150;
+  border: none;
+}
+
+.lastfoot{
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  font-size: 13.5px;
+}
+
+.footnav2{
+  margin-top: 4vh;
+  margin-left: 5vh;
+}
+
+.footnav2 span{
+  color: yellow;
+  font-size: 12px;
+}
+
+.footlogo img{
+  margin-left: 18vh;
+  margin-top: 4vh;
+}
+
+.caption span{
+  color: #E8E8E8;
+  font-size: 11.5px;
+}
+
+
+
